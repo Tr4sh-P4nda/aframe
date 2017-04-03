@@ -5,9 +5,11 @@
     <title>Anime UI</title>
     <meta name="description" content="Anime UI — A-Frame">
     <script src="../../../dist/aframe-master.js"></script>
+    <script src="https://aframe.io/releases/0.3.0/aframe.min.js"></script>
+    <script src="https://sdk.altvr.com/libs/altspace.js/2.0.3/altspace.min.js"></script>
   </head>
   <body>
-    <a-scene>
+    <a-scene altspace:fullscren="true">
       <a-assets>
         <a-asset-item id="engine" src="models/engine.dae"></a-asset-item>
         <a-mixin id="image" geometry="height: 2; width: 2"></a-mixin>
